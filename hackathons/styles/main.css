@@ -1,0 +1,68 @@
+/* GLOBAL ITEMS */
+html, body {
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #444343;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-weight: 200;
+  margin: 0px;
+}
+
+h2{
+  font-weight: 200;
+  margin: 0px;
+}
+
+h3{
+  font-weight: 100;
+  margin: 0px;
+}
+
+/* HOMEPAGE */
+/*html{
+  padding: 40px;
+}*/
+.lutech-logo-container {
+  /*width: 250px;*/
+  /*padding: 15px;*/
+  text-align: right;
+  margin-top: -125px;
+}
+.lutech-logo {
+  width: 250px;
+  z-index: 9999;
+}
+.master-container{
+  background-color: #AAD6A6;
+  /*margin: 40px;*/
+  padding: 50px;
+  font-family: 'Source Code Pro';
+}
+.left-text {
+  text-align: left;
+}
+.middle-text {
+  text-align: center;
+}
+.right-text {
+  text-align: right;
+}
+.title {
+  margin-top: 80px;
+}
+.title h1{
+  font-size: 400%;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+.title-graphic {
+  margin-top: -60px;
+}
+.title-graphic svg{
+  width: 100%;
+}
