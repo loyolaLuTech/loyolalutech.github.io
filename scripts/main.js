@@ -1,5 +1,5 @@
 // javascript wizardry
-$(function(){
+$(document).ready(function() {
   var viewportWidth = $(window).width();
   var viewportHeight = $(window).height();
 
