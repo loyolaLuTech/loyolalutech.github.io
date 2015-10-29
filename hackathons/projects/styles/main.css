@@ -48,6 +48,9 @@ h4{
 .project{
   margin: 25px 0 25px 0;
 }
+.project img{
+  width: 100%;
+}
 #sustainability{
   background-color: #AAD6A6;
 }
