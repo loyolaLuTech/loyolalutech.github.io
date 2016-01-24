@@ -35,9 +35,8 @@ iframe{
     width: 50%;
     /*height: 100%;*/
 }
-
-#spans{
-  padding: 0;
+#welcomeText{
+  text-align: center;
 }
 
 .message-container{
