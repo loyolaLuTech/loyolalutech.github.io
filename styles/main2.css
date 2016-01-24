@@ -1,6 +1,7 @@
 /* GLOBAL ITEMS */
 html, body {
   font-size: 100%;
+
   font-family: 'Lato', sans-serif;
   background-color: #454c51;
 }
@@ -35,12 +36,25 @@ iframe{
     width: 50%;
     /*height: 100%;*/
 }
-#headerLogo{
-  height: 50px;
+#navbar{
+  display: inline-block;
+  float: none;
+  vertical-align: top;
   align-items: center;
+  align-content: center;
+  border-color: transparent;
+  margin: 0px;
 }
-#headerLogo img{
-  height: 100%;
+.transparent{
+  background-color: transparent;
+}
+#navbar img{
+  padding-top: 10px;
+  height: 40px;
+}
+.jumbotron {
+  padding-top: 0px;
+  background: #000 url("/../media/images/Display.jpg") denter center;
 }
 #welcomeText{
   text-align: center;
