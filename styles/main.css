@@ -20,15 +20,24 @@ h3{
   margin: 0px;
 }
 
+iframe{
+  height: 500px;
+  width: 100%;
+}
+
 /* HOMEPAGE */
-.logo-container{
+.header{
   padding: 20px;
   max-width: 340px;
   max-height: 141px;
 }
-.logo-container img {
-    width: 100%;
+.header img {
+    width: 50%;
     /*height: 100%;*/
+}
+
+#spans{
+  padding: 0;
 }
 
 .message-container{
