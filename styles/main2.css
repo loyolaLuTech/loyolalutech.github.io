@@ -1,13 +1,12 @@
 /* GLOBAL ITEMS */
 html, body {
   font-size: 100%;
-
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif, 400;
   background-color: #454c51;
 }
 
 h1{
-  font-weight: 200;
+  font-weight: 300;
   margin: 0px;
 }
 
@@ -21,21 +20,8 @@ h3{
   margin: 0px;
 }
 
-iframe{
-  height: 500px;
-  width: 100%;
-}
-
 /* HOMEPAGE */
-.header{
-  padding: 0px;
-  max-width: 340px;
-  max-height: 141px;
-}
-.header img {
-    width: 50%;
-    /*height: 100%;*/
-}
+
 #navbar{
   display: inline-block;
   float: none;
@@ -45,30 +31,87 @@ iframe{
   border-color: transparent;
   margin: 0px;
 }
-.transparent{
-  background-color: transparent;
-}
 #navbar img{
   padding-top: 10px;
   height: 40px;
 }
-.jumbotron {
-  padding-top: 0px;
-  background: #000 url("/../media/images/Display.jpg") denter center;
+#gh{
+  padding-top: 9px;
+  color: #fff;
+  text-shadow: black .1em .1em .5em;
 }
-#welcomeText{
+#aboutUs {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    background-image: url(../media/images/Display.JPG);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    color: white;
+    vertical-align: middle;
+}
+#aboutUs p{
+      text-shadow: black .1em .1em .5em;
+      font-weight: 300;
+}
+#aboutUs h1{
+  margin-top: 65px;
+}
+#events{
+  font-family: 'Lato', sans-serif;
+  background-color: #fafafa;
+  font-weight: 400;
+  margin: 0;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#CTA{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.btn-default{
+  background: #A30042;
+  color: #eeb111;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+.btn-default:hover{
+  background: #eeb111;
+  color: #a30042;
+}
+#sillyFix{
+  width: 100%;
   text-align: center;
 }
 
 .message-container{
+  padding: 10px;
   text-align: center;
-  /*width: 100%;*/
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 25px;
-  color: #fff;
-  font-weight: 300;
+  color: #FFF;
 }
-.message-container p a{
-  color: #cc7878;
+
+.transparent{
+  background-color: transparent;
 }
+@media(max-width:767px){
+
+}
+@media(min-width:768px){
+  #CTA{
+    padding-top: 30px;
+  }
+  #events{
+    padding: 40px;
+  }
+}
+@media(min-width:992px){
+  #CTA{
+    padding-top: 50px;
+  }
+}
+@media(min-width:1200px){}

@@ -10,31 +10,48 @@
     <!-- <script type="text/javascript" src="scripts/main.js"></script> -->
     <!-- Load stylesheets, fonts and favicon here -->
     <link rel="stylesheet" type="text/css" href="libs/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/octicons.css">
+    <link rel="stylesheet" type="text/css" href="styles/main2.css">
     <link rel="icon" href="media/favicon.ico" type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <!-- Here is where the magic begins -->
     <div class="content">
-      <div class="jumbotron">
-        <img src="media/images/logo.png">
+
+      <nav class="navbar navbar-default navbar-fixed-top container-fluid transparent" id="navbar">
+        <img class="pull-left" src="media/images/headLogo.png">
+        <span class="pull-right mega-octicon octicon-mark-github" id="gh"></span>
+      </nav>
+
+<div class="container-flexible">
+      <div class="jumbotron" id="aboutUs">
+        <div class="container">
+        <h1>About Us</h1><br>
+        <p>LuTech is Loyola University Chicago's student organization for technology lovers interested in the interesection of computing and social good. We host events like hackathons and workshops so the Loyola student body and our community can benefit in meaningful ways from student-developed technology projects.</p>
       </div>
-      <row>
-        <div class="col-12" id="welcomeText">
-          adsfasdf
+      </div>
+</div>
+
+<div class="container" id="events">
+        <row>
+        <div class="col-md-1 col-sm-1 col-xs-1"></div>
+        <div class="col-md-6 col-sm-10 col-xs-10">
+          <h1></h1>
+          <span>We specialize in hosting student-led hackathons at Loyola - events where software developers and smart creatives come together to produce interesting projects that solve real problems. Our events in the past have focused on Chicago sustainability and local hunger issues. Our events in the future will continue to apply student ideas to real-world issues in interesting ways. Want to join the fun?</span>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1"></div>
+        <div class="col-md-3 col-sm-12 col-xs-12" id="CTA">
+          <div id="sillyFix">
+            <button type="button" class="btn btn-default">Past Events</button>
+            <button type="button" class="btn btn-default">Future Events</button>
+          </div>
         </div>
       </row>
-      <row>
-        <div class="col-xs-12 col-md-6 col-sm-12" id="sustainability">
-
-
-
+</div>
+        <div class="col-xs-12 col-md-6 col-sm-12" id="">
         </div>
         <div class="col-xs-12 col-md-6 col-sm-12" id="hunger">
-
-
-
         </div>
       </row>
       <div class="message-container col-xs-12">
