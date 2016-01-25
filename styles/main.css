@@ -126,4 +126,5 @@ height: 450px;
     padding-top: 60px;
   }
 }
-@media(min-width:1200px){}
+@media(min-width:1047px){
+}
