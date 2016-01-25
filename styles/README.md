@@ -1,4 +1,1 @@
-## Add styles here
-
-Use the main.css file for the majority.
-If needed, add another file and link it in the .html.
+If you intend to install Octicons locally, install `octicons-local.ttf`. It should appear as “github-octicons” in your font list. It is specially designed not to conflict with GitHub's web fonts.
