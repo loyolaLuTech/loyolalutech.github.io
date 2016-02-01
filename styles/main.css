@@ -75,13 +75,13 @@ h3{
     text-align: center;
 }
 .btn-default{
-  background: #000;
-  color: #fff;
+  background: transparent;
+  color: #000000;
   -webkit-transition: .2s;
   transition: .2s;
 }
 .btn-default:hover{
-  background: #eeb111;
+  background: #454c51;
   color: #fff;
 }
 #sillyFix{
