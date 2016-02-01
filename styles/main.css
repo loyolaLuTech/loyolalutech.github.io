@@ -86,24 +86,14 @@ a{
 }
 
 .btn-default{
-<<<<<<< HEAD
   background: #454c51;
   color: white;
-=======
-  background: transparent;
-  color: #000000;
->>>>>>> b03fef8c1db2894a3390157b304d7b9158680cdf
   -webkit-transition: .2s;
   transition: .2s;
 }
 .btn-default:hover{
-<<<<<<< HEAD
   background: white;
   color: black;
-=======
-  background: #454c51;
-  color: #fff;
->>>>>>> b03fef8c1db2894a3390157b304d7b9158680cdf
 }
 
 #sillyFix{
