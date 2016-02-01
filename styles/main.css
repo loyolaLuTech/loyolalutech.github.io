@@ -20,6 +20,10 @@ h3{
   margin: 0px;
 }
 
+a{
+  color: white;
+}
+
 /* HOMEPAGE */
 
 #navbar{
@@ -34,6 +38,10 @@ h3{
 #navbar img{
   padding-top: 10px;
   height: 40px;
+}
+
+#footer{
+  background-color: white;
 }
 #gh{
   padding-top: 9px;
@@ -59,34 +67,72 @@ h3{
 #aboutUs h1{
   margin-top: 65px;
 }
+
 #events{
   font-family: 'Lato', sans-serif;
-  background-color: #fafafa;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   width: 100%;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  color: white;
 }
+
 #CTA{
     height: 100%;
     display: flex;
-    align-items: center;
+    al: center;
     text-align: center;
 }
+
 .btn-default{
-  background: transparent;
-  color: #000000;
+  background: #454c51;
+  color: white;
   -webkit-transition: .2s;
   transition: .2s;
 }
 .btn-default:hover{
-  background: #454c51;
-  color: #fff;
+  background: white;
+  color: black;
 }
+
 #sillyFix{
   width: 100%;
   text-align: center;
+}
+
+#joinUs {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    background-image: url(../media/images/JoinUs.JPG);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    color: white;
+    vertical-align: middle;
+    padding-top: 60px;
+}
+
+#joinUs .btn-default{
+  background: transparent;
+  color: white;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#joinUs .btn-default:hover{
+  background: white;
+  color: black;
+}
+
+#joinUs p{
+      text-shadow: black .1em .1em .5em;
+      font-weight: 300;
+}
+#joinUs h1{
+  margin-top: 65px;
 }
 
 .message-container{
@@ -103,11 +149,12 @@ h3{
     padding-top: 30px;
   }
   #events{
+    text-align: center;
     padding: 40px;
   }
   #aboutUs{
     height: 500px;
-padding-top: 80px;
+    padding-top: 80px;
   }
 }
 @media(min-width:768px){
@@ -115,13 +162,18 @@ padding-top: 80px;
     padding-top: 30px;
   }
   #events{
+    text-align: center;
     padding: 40px;
   }
-#aboutUs{
-padding-top: 50px;
-height: 450px;
-}
+  #aboutUs{
+    padding-top: 50px;
+    height: 450px;
+  }
 @media(min-width:992px){
+  #events{
+    padding: 90px;
+    text-align: left;
+  }
   #CTA{
     padding-top: 60px;
   }
