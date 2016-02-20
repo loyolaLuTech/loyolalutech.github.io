@@ -66,6 +66,16 @@ h3{
   width: 100%;
 }
 
+/*Banner*/
+.banner-master {
+  padding-top: 20px;
+  height: 100vh;
+  background-color: #D7C8E0;
+}
+.centered{
+  text-align: center;
+}
+
 @media screen and (max-width: 750px){
 
 }
